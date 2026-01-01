@@ -41,7 +41,7 @@ const projectData = {
                     "asset_id": 18883,
                     "asset_title": "Technical Project Management",
                     "asset_description": "Story of Alignment\r\nScope of Agility\r\nSpecific Accountable \r\nStaggering Approach\r\n\r\n",
-                    "asset_content": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                    "asset_content": "https://www.youtube.com/watch?v=TiMRwri1xJ8",
                     "asset_type": "display_asset",
                     "asset_content_type": "video"
                 },
