@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolbar Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome for Icons -->
+</head>
+
+<body>
+
+    <!-- Toolbar Section -->
+    <header class="toolbar">
+        <div class="logo">
+            <img src="Asset/logo/logo 1.svg" alt="Deep Thought Logo">
+        </div>
+
+        <div class="toolbar-actions">
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#"><img src="Asset/icons/home.svg" alt="Search Icon"></a></li>
+                    <li><a href="#"><img src="Asset/icons/tools.png" alt="Search Icon"></a></li>
+                    <li><a href="#"><img src="Asset/icons/notification.png" alt="Search Icon"></a></li>
+                    <li><a href="#">
+                            <div class="user-avatar">
+                                <img src="Asset/images/profile.png" alt="User Profile">
+                            </div>
+                        </a></li>
+
+                </ul>
+            </nav>
+
+
+
+            <!-- Three-dot Icon -->
+            <div class="menu-icon">
+                <img src="Asset/icons/menuDot.svg" alt="" style="color: rgb(140, 208, 228);">
+
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <div class="left-side-bar">
+            <div class="sideBar-header">
+                <span class="journey-text">Journey Board</span>
+                <button class="arrow-button">
+
+                    <img src="Asset/icons/arrow.svg">
+                </button>
+
+            </div>
+            <div class="sideBar-body-collapsed">
+                <img src="Asset/icons/one.png" alt="">
+
+
+            </div>
+
+            <div class="sideBar-body">
+
+                <ul class="sidebar-menu">
+
+                    <li>
+                        <h3>Explore the world of management</h3>
+                    </li>
+                    <ol>
+                        <li> Technical Project Management</li>
+                        <li> Threadbuildt</li>
+                        <li> Structure your pointers</li>
+                        <li> 4SA Method</li>
+                    </ol>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="middle-container">
+            <div class="section1">
+                <p>Technical Project Management</p>
+                <button>Submit task</button>
+            </div>
+            <div class="section2">
+                <h3>Explore the word of Management</h3>
+                <p>As a project manager, you play an important reole in leading a project through initiation,
+                    planning, execution, monitoring, controlling and completion.
+                    How? Do you want to manage each and every step of your life?</p>
+            </div>
+
+            <div id="section3">
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="right-side-bar">
+            <div class=" upper-section-side-bar">
+                <div class="notice-container">
+                    <img src="Asset/icons/x.svg" alt="Notice Icon" style="width: 20px; margin-bottom: 10px;">
+                    <p>N</p>
+                    <p>o</p>
+                    <p>t</p>
+                    <p>i</p>
+                    <p>c</p>
+                    <p>e</p>
+
+                    <p style="margin-top: 10px;">B</p>
+                    <p>o</p>
+                    <p>a</p>
+                    <p>r</p>
+                    <p>d</p>
+
+                </div>
+                <div class="blank-container">
+
+                </div>
+
+            </div>
+            <div class="lower-section-side-bar">
+                <div class="floating-icons">
+                    <div class="icon" onclick="showHelp()">
+                        <img src="Asset/icons/questionMark.png" alt="Help Icon">
+                    </div>
+                    <div class="icon" onclick="showChat()">
+                        <img src="Asset/icons/meeting.png" alt="Chat Icon">
+                    </div>
+                    <div class="icon" onclick="showSettings()">
+                        <img src="Asset/icons/calendar.png" alt="Settings Icon">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
