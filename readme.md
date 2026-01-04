@@ -100,4 +100,4 @@ This is mainly a demo project, but if you're interested in tweaking it or adding
 
 ## License Stuff
 
-This is for learning purposes only. For any official licensing, check out the original Deep Thought platform.
+This is for learning purposes only. For any official licensing, check out the original Deep Thought platform..
